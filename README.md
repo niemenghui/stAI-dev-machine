@@ -54,7 +54,7 @@
 - ~55GB image  
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
-
+- Download the VM image (55 GB) https://tomsk.tv
 <Divider />
 
 ## 🎯 **Who stAI Is For**
