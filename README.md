@@ -77,7 +77,9 @@ If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending
 
 <Divider />
 
-## 💸 **stAI Pricing**
+## 💸 stAI Pricing
+
+<sub>
 
 | Tier | Price | What You Get |
 |------|--------|--------------|
@@ -87,6 +89,8 @@ If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending
 | **Student Edition** | **$79 USD** | Same as Starter, discounted for students |
 | **Team Pack (5 seats)** | **$799 USD** | Team onboarding + shared support |
 | **Enterprise Pack (10 seats)** | **$1,499 USD** | Custom setup guidance + extended support |
+
+</sub>
 
 <Divider />
 
