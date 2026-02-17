@@ -1,0 +1,60 @@
+# 1. Builder — install deps & build Next.js
+FROM node:20-bookworm-slim AS builder
+
+ARG GITHUB_TOKEN
+ENV GITHUB_TOKEN=${GITHUB_TOKEN}
+
+WORKDIR /usr/src/app
+
+# Copy .npmrc FIRST so npm always has auth
+COPY .npmrc .npmrc
+
+# Copy root manifests (tsconfig.json MUST be here for next build)
+COPY package.json package-lock.json tsconfig.json ./
+
+# Copy workspaces
+COPY nq-next ./nq-next
+COPY common ./common
+COPY ui53 ./ui53
+COPY nq-express ./nq-express
+
+# Install dependencies for the whole monorepo
+RUN npm ci --legacy-peer-deps && rm -f .npmrc
+
+# Build Next.js app
+WORKDIR /usr/src/app/nq-next
+RUN npm run build
+
+# 2. Runtime — production image
+FROM node:20-bookworm-slim AS runtime
+
+ARG GITHUB_TOKEN
+ENV GITHUB_TOKEN=${GITHUB_TOKEN}
+
+WORKDIR /usr/src/app
+
+# Copy .npmrc FIRST again for production install
+COPY .npmrc .npmrc
+
+# Copy root manifests (NO tsconfig.json here)
+COPY package.json package-lock.json ./
+
+# Copy only the workspaces needed at runtime
+COPY common ./common
+COPY ui53 ./ui53
+COPY nq-express ./nq-express
+COPY nq-next ./nq-next
+
+# Install production dependencies
+RUN npm ci --omit=dev --legacy-peer-deps \
+ && rm -f .npmrc
+
+# Copy build output from builder
+COPY --from=builder /usr/src/app/nq-next/.next ./nq-next/.next
+COPY --from=builder /usr/src/app/nq-next/public ./nq-next/public
+COPY --from=builder /usr/src/app/nq-next/next.config.js ./nq-next/next.config.js
+
+WORKDIR /usr/src/app/nq-next
+
+EXPOSE 3000
+CMD ["npx", "next", "start"]
