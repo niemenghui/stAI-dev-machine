@@ -2,7 +2,7 @@
 ### Your Full‑Stack AI Dev Machine
 
 <Callout type="info">
-  <strong>stAI</strong> is a fully‑engineered Ubuntu development VM designed for full‑stack developers, AI builders, and DevOps learners who want a clean, modern, production‑ready environment from the moment they boot it up.
+  <strong>stAI</strong> is a fully‑engineered Ubuntu development VM designed for full‑stack developers, AI builders, and DevOps learners who want a clean, modern, production‑ready environment from the moment they boot it up. After months of engineering, testing, breaking, fixing, and refining, I’m finally releasing something I wish I had years ago — stAI, a fully‑loaded Ubuntu development VM built for full‑stack engineers, AI builders, and DevOps learners who want to skip the painful setup and get straight to building.
 </Callout>
 
 <Divider />
