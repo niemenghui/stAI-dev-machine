@@ -1,0 +1,197 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: niemenghui/nq-mongo:${DOCKER_TAG}
+    env_file:
+      - nq-express/.env.prd
+    environment:
+      MDB_HOST_FILE: /run/secrets/MDB_HOST
+      MDB_PROTOCOL_FILE: /run/secrets/MDB_PROTOCOL
+      MDB_PORT_FILE: /run/secrets/MDB_PORT
+      MDB_DATABASE_FILE: /run/secrets/MDB_DATABASE
+      MDB_USERNAME_FILE: /run/secrets/MDB_USERNAME
+      MDB_PASSWORD_FILE: /run/secrets/MDB_PASSWORD
+    ports:
+      - "${MONGO_PORT}:27017"
+    volumes:
+      - mongo_vol:/data/db
+    networks:
+      - net-nq
+    secrets:
+      - MDB_HOST
+      - MDB_PROTOCOL
+      - MDB_PORT
+      - MDB_DATABASE
+      - MDB_USERNAME
+      - MDB_PASSWORD
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 256M
+
+  express:
+    image: niemenghui/nq-express:${DOCKER_TAG}
+    env_file:
+      - nq-express/.env.prd
+    environment:      
+      MDB_HOST_FILE: /run/secrets/MDB_HOST
+      MDB_PROTOCOL_FILE: /run/secrets/MDB_PROTOCOL
+      MDB_PORT_FILE: /run/secrets/MDB_PORT         
+      MDB_DATABASE_FILE: /run/secrets/MDB_DATABASE
+      MDB_USERNAME_FILE: /run/secrets/MDB_USERNAME
+      MDB_PASSWORD_FILE: /run/secrets/MDB_PASSWORD   
+    ports:
+      - "${EXPRESS_PORT}:5000"
+    depends_on:
+      - mongo
+    networks:
+      - net-nq    
+    secrets:
+      - MDB_HOST
+      - MDB_PROTOCOL
+      - MDB_PORT
+      - MDB_DATABASE
+      - MDB_USERNAME
+      - MDB_PASSWORD    
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 256M
+
+  next:
+    image: niemenghui/nq-next:${DOCKER_TAG}
+    env_file:
+      - nq-next/.env.production
+    ports:
+      - "${NEXT_PORT}:3000"
+    networks:
+      - net-nq
+    depends_on:
+      - express
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 256M
+
+  # weaviate:
+  #   image: niemenghui/nq-weaviate:${DOCKER_TAG}
+  #   env_file:
+  #     - .env.prd
+  #   ports:
+  #     - "${WDB_PORT}:8080"
+  #   volumes:
+  #     - weaviate_vol:/var/lib/weaviate
+  #   networks:
+  #     - net-nq
+  #   deploy:
+  #     replicas: 1
+  #     restart_policy:
+  #       condition: on-failure
+  #     resources:
+  #       limits:
+  #         cpus: "1.00"
+  #         memory: 1G
+  #       reservations:
+  #         cpus: "0.25"
+  #         memory: 512M
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:8080/v1/.well-known/ready"]
+  #     interval: 10s
+  #     timeout: 15s
+  #     retries: 5
+
+  # nq-llama:
+  #   image: niemenghui/nq-llama:${DOCKER_TAG}
+  #   env_file:
+  #     - .env.prd
+  #   command: >
+  #     /app/server
+  #     -m /models/YourModel.gguf
+  #     --host 0.0.0.0
+  #     --port ${LLAMA_CPP_PORT}
+  #     -c 4096
+  #     -t 6
+  #   ports:
+  #     - "${LLAMA_CPP_PORT}:${LLAMA_CPP_PORT}"
+  #   volumes:
+  #     - models_vol:/models:ro
+  #   networks:
+  #     - net-nq
+  #   deploy:
+  #     replicas: 1
+  #     restart_policy:
+  #       condition: on-failure
+  #     resources:
+  #       limits:
+  #         memory: 4G
+  #       reservations:
+  #         memory: 1G
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:${LLAMA_CPP_PORT}/health"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+
+  storybook:
+    image: niemenghui/nq-storybook:${DOCKER_TAG}
+    ports:
+      - "${STORYBOOK_PORT}:80"        # Storybook runs on port 80 inside container 
+    volumes: 
+      - caddy_data:/data    # REQUIRED for Caddy internal TLS   
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 256M
+        reservations:
+          cpus: "0.10"
+          memory: 128M
+
+networks:
+  net-nq:
+    name: net-nq
+
+secrets:
+  MDB_HOST:
+    external: true
+  MDB_PROTOCOL:
+    external: true 
+  MDB_PORT:
+    external: true 
+  MDB_DATABASE:
+    external: true
+  MDB_USERNAME:
+    external: true
+  MDB_PASSWORD:
+    external: true
+
+volumes:
+  mongo_vol:
+  weaviate_vol:
+  models_vol:
+  caddy_data:     # persistent storage for Caddy certificates. Not using now, for future try.
