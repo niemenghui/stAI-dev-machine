@@ -132,15 +132,15 @@ If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending
 
 Getting started with **stAI** takes just a few minutes. Everything is pre‑configured, so you can go from download to coding instantly.
 
-### **Step 1 — Install VMware Workstation 17 Pro**
+### **Step 1 — Install VMware Workstation**
 Download VMware Workstation 17 Pro from:  
 **https://tomsk.tv**  
 Install it on your laptop like any normal application.
 
 ### **Step 2 — Purchase & Download stAI**
-Visit our online shop: **https://tomsk.tv/shop**  
+Visit our online shop: **https://tomsk.tv/wp/shop**  
 After purchase, download the **stAI VM image** (a large ZIP file).  
-Unzip it into any folder you prefer — for example:
+Unzip it into any folder you prefer — for example (C:/vm)
 
 
 
@@ -148,7 +148,7 @@ Unzip it into any folder you prefer — for example:
 ### **Step 3 — Launch the VM**
 Open **VMware Workstation**  
 Click **Open a Virtual Machine**  
-Select the unzipped stAI folder (e.g., `C:/vm`)  
+Select from the unzipped stAI folder (e.g., `C:/vm/stAI`)  
 Press **Play**
 
 The VM will boot, and you’ll immediately see your full development environment — files, tools, VS Code, everything ready to go.
