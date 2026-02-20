@@ -76,21 +76,53 @@
 If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending days configuring everything, **stAI** will save you a ton of time.
 
 <Divider />
-
 ## 💸 stAI Pricing
 
-<sub>
+### Launch Promo — **50% Off** (limited time)  
+Students receive additional discounts.
 
-| Tier | Price | What You Get |
-|------|--------|--------------|
-| **Starter (Promo)** | **$99 USD** | Full VM download, AI stack, dev tools, Dockerfiles, 3 months updates |
-| **Standard** | **$199 USD** | Everything in Starter + priority email support + 6 months updates |
-| **Pro** | **$299 USD** | Everything in Standard + 1‑on‑1 onboarding session + 12 months updates |
-| **Student Edition** | **$79 USD** | Same as Starter, discounted for students |
-| **Team Pack (5 seats)** | **$799 USD** | Team onboarding + shared support |
-| **Enterprise Pack (10 seats)** | **$1,499 USD** | Custom setup guidance + extended support |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left;">Tier</th>
+      <th style="text-align:left;">Price</th>
+      <th style="text-align:left;">What You Get</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Starter (Promo)</strong></td>
+      <td><strong>$99 USD</strong></td>
+      <td>Full VM download, AI stack, dev tools, Dockerfiles, 3 months of updates</td>
+    </tr>
+    <tr>
+      <td><strong>Standard</strong></td>
+      <td><strong>$199 USD</strong></td>
+      <td>Everything in Starter + priority email support + 6 months of updates</td>
+    </tr>
+    <tr>
+      <td><strong>Pro</strong></td>
+      <td><strong>$299 USD</strong></td>
+      <td>Everything in Standard + 1‑on‑1 onboarding session + 12 months of updates</td>
+    </tr>
+    <tr>
+      <td><strong>Student Edition</strong></td>
+      <td><strong>$79 USD</strong></td>
+      <td>Same as Starter, discounted for students</td>
+    </tr>
+    <tr>
+      <td><strong>Team Pack (5 seats)</strong></td>
+      <td><strong>$799 USD</strong></td>
+      <td>Team onboarding + shared support</td>
+    </tr>
+    <tr>
+      <td><strong>Enterprise Pack (10 seats)</strong></td>
+      <td><strong>$1,499 USD</strong></td>
+      <td>Custom setup guidance + extended support</td>
+    </tr>
+  </tbody>
+</table>
 
-</sub>
 
 <Divider />
 
