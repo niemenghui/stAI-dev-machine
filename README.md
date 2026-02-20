@@ -51,7 +51,7 @@
 
 - Ubuntu VM running on **VMware Player**  
 - Version **0.3.0**  
-- ~55GB image  
+- Over 59GB image  
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
 - Download the VM image (55 GB) https://tomsk.tv
