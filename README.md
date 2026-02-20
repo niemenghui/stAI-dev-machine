@@ -76,10 +76,8 @@
 If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending days configuring everything, **stAI** will save you a ton of time.
 
 <Divider />
-## 💸 stAI Pricing
 
-### Launch Promo — **50% Off** (limited time)  
-Students receive additional discounts.
+## 💸 stAI Pricing
 
 <table>
   <thead>
