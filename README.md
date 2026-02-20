@@ -2,7 +2,7 @@
 ### Your Full‑Stack AI Dev Machine
 
 <Callout type="info">
-  <strong>stAI</strong> is a fully‑engineered Ubuntu development VM designed for full‑stack developers, AI builders, and DevOps learners who want a clean, modern, production‑ready environment from the moment they boot it up. After months of engineering, testing, breaking, fixing, and refining, I’m finally releasing something I wish I had years ago — stAI, a fully‑loaded Ubuntu development VM built for full‑stack engineers, AI builders, and DevOps learners who want to skip the painful setup and get straight to building.
+  <strong>stAI</strong> is a fully‑engineered Ubuntu VM (Virtual Machine) designed for full‑stack developers, AI builders, and DevOps learners who want a clean, modern, production‑ready environment from the moment they boot it up. After months of engineering, testing, breaking, fixing, and refining, I’m finally releasing something I wish I had years ago — stAI, a fully‑loaded Ubuntu development VM built for full‑stack engineers, AI builders, and DevOps learners who want to skip the painful setup and get straight to building.
 </Callout>
 
 <Divider />
@@ -25,7 +25,8 @@
 - Next.js  
 - React  
 - TailwindCSS  
-- HeroUI  
+- HeroUI
+- Storybook for testing, and documenting frontend UI components libraries
 - MongoDB (fully configured)  
 - VS Code with curated extensions  
 - Unit testing environment ready  
@@ -42,19 +43,19 @@
 - Reproducible, battle‑tested workflows  
 
 <Callout type="warning">
-  The VM image is ~55GB because it includes a complete AI + full‑stack + DevOps environment.
+  The VM image is ~59GB because it includes a complete AI + full‑stack + DevOps environment.
 </Callout>
 
 <Divider />
 
 ## 🖥️ **VM Details**
 
-- Ubuntu VM running on **VMware Player**  
+- Ubuntu VM running on **VMware**  
 - Version **0.3.0**  
 - Over 59GB image  
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
-- Download the VM image (55 GB) https://tomsk.tv
+- Download the VM image (59 GB) https://tomsk.tv
 <Divider />
 
 ## 🎯 **Who stAI Is For**
