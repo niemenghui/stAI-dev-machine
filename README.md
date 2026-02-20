@@ -162,7 +162,3 @@ A purchase is required to download the VM.
 However, if you are a **college student** or are currently experiencing **financial difficulty**, please contact us — you may qualify for a free download of stAI.
 
 
-<Callout type="success">
-  Students receive additional discounts.
-</Callout>
-
