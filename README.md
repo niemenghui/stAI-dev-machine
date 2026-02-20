@@ -27,7 +27,7 @@
 - TailwindCSS  
 - HeroUI
 - Storybook for testing, and documenting frontend UI components libraries
-- MongoDB (fully configured)  
+- MongoDB, and MySQL (fully configured)  
 - VS Code with curated extensions  
 - Unit testing environment ready  
 - Postman installed  
