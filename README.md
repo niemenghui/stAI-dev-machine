@@ -51,7 +51,7 @@
 ## 🖥️ **VM Details**
 
 - Ubuntu VM running on **VMware**  
-- Version **0.3.0**  
+- Version **3.0.3**  
 - Over 59GB image  
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
