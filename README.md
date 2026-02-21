@@ -139,6 +139,7 @@ Install it on your laptop like any normal application.
 <a href="https://tomsk.tv/wp/shop" target="_blank">Visit our online 853shop</a>
 <a href="https://tomsk.tv/wp/shop" target="_blank"><strong>https://tomsk.tv/wp/shop</strong></a>
 
+[Visit our online shop](https://tomsk.tv/wp/shop)
 
 ### **Step 2 — Purchase & Download stAI**
 Visit our online shop: **https://tomsk.tv/wp/shop**  
