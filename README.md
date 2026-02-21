@@ -66,7 +66,6 @@
 - Recently laid‑off engineers reskilling for US/Canada markets  
 - Small teams needing a standardized dev environment  
 
-
 <Divider />
 
 ## 📩 **Contact**
@@ -121,7 +120,6 @@ If you’ve ever wanted a clean, modern, AI‑ready dev machine without spending
   </tbody>
 </table>
 
-
 <Divider />
 
 ## 💸 **Launch Promo**
@@ -136,18 +134,11 @@ Getting started with **stAI** takes just a few minutes. Everything is pre‑conf
 Download VMware Workstation 17 Pro from:  
 **https://tomsk.tv**  
 Install it on your laptop like any normal application.
-<a href="https://tomsk.tv/wp/shop" target="_blank">Visit our online 853shop</a>
-<a href="https://tomsk.tv/wp/shop" target="_blank"><strong>https://tomsk.tv/wp/shop</strong></a>
-
-[Visit our online shop](https://tomsk.tv/wp/shop)
 
 ### **Step 2 — Purchase & Download stAI**
 Visit our online shop: **https://tomsk.tv/wp/shop**  
 After purchase, download the **stAI VM image** (a large ZIP file).  
 Unzip it into any folder you prefer — for example (C:/vm)
-
-
-
 
 ### **Step 3 — Launch the VM**
 Open **VMware Workstation**  
@@ -164,5 +155,3 @@ You can start coding right away and have fun building.
 ### **Note on Pricing & Access**
 A purchase is required to download the VM.  
 However, if you are a **college student** or are currently experiencing **financial difficulty**, please contact us — you may qualify for a free download of stAI.
-
-
