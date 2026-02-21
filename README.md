@@ -143,8 +143,8 @@ Unzip it into any folder you prefer — for example (C:/vm)
 ### **Step 3 — Launch the VM**
 Open **VMware Workstation**  
 Click **Open a Virtual Machine**  
-Select from the unzipped stAI folder (e.g., `C:/vm/stAI`)  
-Press **Play**
+Select the vmx file from the unzipped stAI folder (e.g., `C:/vm/stAI`)  
+Press **Power on this virtual machine**
 
 The VM will boot, and you’ll immediately see your full development environment — files, tools, VS Code, everything ready to go.
 
