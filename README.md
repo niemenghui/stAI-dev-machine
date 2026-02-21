@@ -136,6 +136,9 @@ Getting started with **stAI** takes just a few minutes. Everything is pre‑conf
 Download VMware Workstation 17 Pro from:  
 **https://tomsk.tv**  
 Install it on your laptop like any normal application.
+<a href="https://tomsk.tv/wp/shop" target="_blank">Visit our online 853shop</a>
+<a href="https://tomsk.tv/wp/shop" target="_blank"><strong>https://tomsk.tv/wp/shop</strong></a>
+
 
 ### **Step 2 — Purchase & Download stAI**
 Visit our online shop: **https://tomsk.tv/wp/shop**  
