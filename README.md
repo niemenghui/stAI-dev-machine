@@ -52,7 +52,7 @@
 
 - Ubuntu VM running on **VMware**  
 - Version **3.0.3**  
-- VM image file (over 59 GB), can be downloaded at https://tomsk.tv
+- VM image file (over 59 GB), can be downloaded at www.tomsk.tv
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
 <Divider />
