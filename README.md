@@ -136,7 +136,7 @@ Download VMware Workstation 17 Pro from:
 Install it on your laptop like any normal application.
 
 ### **Step 2 — Purchase & Download stAI**
-Visit our online shop: **https://tomsk.tv/wp/shop**  
+Visit our online shop: **(https://tomsk.tv/wp/product/stai/)**  
 After purchase, download the **stAI VM image** (a large ZIP file).  
 Unzip it into any folder you prefer — for example (C:/vm)
 
