@@ -11,7 +11,7 @@
 
 - **llama.cpp** for local LLM experimentation  
 - **Weaviate** vector database for RAG + embeddings. Swarm replicas stability tested: no crash loops. HTTP layer: /v1/schema, /v1/nodes, and GraphQL respond correctly. Raft/cluster layer: /v1/nodes reports healthy node. Persistence: created class and inserted object successfully. Query engine: GraphQL returned inserted object.  
-- Pre‑configured environment for AI tools, prototypes, and modern workflows  
+- Pre‑configured environment for AI tools, prototypes, modern workflows, optimal future‑proof and production‑ready.  
 
 <Callout type="tip">
   Perfect for building AI‑driven applications, RAG systems, and LLM‑powered tools without touching complex setup steps.
@@ -21,7 +21,8 @@
 
 ## 💻 **Full‑Stack Web Development Environment**
 
-- Node.js  
+- Node.js
+- Express.js backend the “brain” of the system, Express server the orchestrator 
 - Next.js  
 - React  
 - TailwindCSS  
