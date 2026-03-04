@@ -10,7 +10,7 @@
 ## 🧠 **AI Stack — Ready Out‑of‑the‑Box**
 
 - **llama.cpp** for local LLM experimentation  
-- **Weaviate** vector database for RAG + embeddings. Swarm replicas stability: no crash loops. HTTP layer: /v1/schema, /v1/nodes, and GraphQL respond correctly. Raft/cluster layer: /v1/nodes reports healthy node. Persistence: created class and inserted object successfully. Query engine: GraphQL returned inserted object.  
+- **Weaviate** vector database for RAG + embeddings. Swarm replicas stability tested: no crash loops. HTTP layer: /v1/schema, /v1/nodes, and GraphQL respond correctly. Raft/cluster layer: /v1/nodes reports healthy node. Persistence: created class and inserted object successfully. Query engine: GraphQL returned inserted object.  
 - Pre‑configured environment for AI tools, prototypes, and modern workflows  
 
 <Callout type="tip">
