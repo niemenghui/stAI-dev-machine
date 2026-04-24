@@ -71,7 +71,7 @@
 - Full‑stack developers  
 - AI learners, AI builders
 - DevOps engineers  
-- Students in colleges  
+- Students, colleges and schools  
 - Recently laid‑off engineers reskilling for US/Canada markets  
 - Small teams needing a standardized dev environment  
 
