@@ -73,7 +73,7 @@
 - DevOps engineers  
 - Students, colleges and schools  
 - Recently laid‑off engineers reskilling for US/Canada markets  
-- Small teams needing a standardized dev environment  
+- Software company, small teams needing a standardized dev environment  
 
 <Divider />
 
