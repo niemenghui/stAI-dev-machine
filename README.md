@@ -24,7 +24,7 @@
 - Node.js
 - Express.js backend the “brain” of the system, Express server the orchestrator 
 - Next.js  
-- React  
+- React and React Native (ready for connect to Android SDK) Cross‑platform 
 - TailwindCSS  
 - HeroUI
 - Storybook for testing, and documenting frontend UI components libraries
@@ -46,6 +46,14 @@
 <Callout type="warning">
   The VM image is ~59GB because it includes a complete AI + full‑stack + DevOps environment.
 </Callout>
+
+<Divider />
+
+## ⚙️ Go (Golang) monorepo to create Cloud infrastructure & DevOps tools
+
+- Go is a cross-platform, compiled language used to create high‑performance apps, such as: Docker, Kubernetes, Grafana.  
+- Fyne is one of the most popular GUI toolkits for Go (Golang), used to create cross‑platform applications on Windows, macOS, Linux, Android, iOS, PLC and Embedded / IoT Controller and Ground Control Station (GCS) for drone. Desktop apps can be used where web apps cannot perform a task reliably.  
+- A few test types are set up and ready to run: Unit tests, Fuzz tests, Benchmark tests.
 
 <Divider />
 
