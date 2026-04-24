@@ -61,7 +61,7 @@
 
 - Ubuntu VM running on **VMware**  
 - Version **3.0.3**  
-- VM image file (over 59 GB), can be downloaded at www.tomsk.tv
+- VM image file (over 59 GB), can be downloaded
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
 <Divider />
@@ -141,7 +141,7 @@ Getting started with **stAI** takes just a few minutes. Everything is pre‑conf
 
 ### **Step 1 — Install VMware Workstation**
 Download VMware Workstation 17 Pro from:  
-**https://tomsk.tv**  
+**[https://tomsk.tv](https://tomsk.tv/wp/product/stai/)**  
 Install it on your laptop like any normal application.
 
 ### **Step 2 — Purchase & Download stAI**
