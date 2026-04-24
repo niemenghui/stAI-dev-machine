@@ -51,8 +51,8 @@
 
 ## ⚙️ Go (Golang) monorepo to create Cloud infrastructure & DevOps tools
 
-- Go is a cross-platform, compiled language used to create high‑performance apps, such as: Docker, Kubernetes, Grafana.  
-- Fyne is one of the most popular GUI toolkits for Go (Golang), used to create cross‑platform applications on Windows, macOS, Linux, Android, iOS, PLC, Embedded / IoT Controller and Ground Control Station (GCS) for drone. Desktop apps can be used where web apps cannot perform a task reliably.  
+- Cross-platform, compiled language Go to create high‑performance apps, such as: Docker, Kubernetes, Grafana.  
+- One of the best GUI toolkits for Go (Golang), Fyne to create cross‑platform applications on Windows, macOS, Linux, Android, iOS, PLC, Embedded / IoT Controller and Ground Control Station (GCS) for drone. Desktop apps can be used where web apps cannot perform a task reliably.  
 - Test types are set up and ready to run: Unit tests, Fuzz tests, Benchmark tests.
 
 <Divider />
@@ -157,7 +157,7 @@ Press **Power on this virtual machine**
 
 The VM will boot, and you’ll immediately see your full development environment — files, tools, VS Code, everything ready to go.
 
-You can start coding right away and have fun building. The Docker containers will be up running, or you can use the Linux script files too. You now can start with the 2 large monorepo: Node JS monorepo, and Go monorepo.  
+You can start coding right away and have fun building. The Docker containers will be up running, or you can use the Linux script files to start. You have 2 monorepo: Node JS, and Go monorepo.  
 
 ---
 
