@@ -162,5 +162,5 @@ You can start coding right away and have fun building. The Docker containers wil
 ---
 
 ### **Note on Pricing & Access**
-A purchase is required to download the VM.  
+A purchase is required to download the Virtual Machine.  
 However, if you are a **college student** or are currently experiencing **financial difficulty**, please contact us — you may qualify for a free download of stAI.
