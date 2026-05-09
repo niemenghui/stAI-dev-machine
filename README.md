@@ -143,8 +143,8 @@ Getting started with **stAI** takes just a few minutes. Everything is pre‑conf
 Download VMware Workstation 17 Pro, and install it on your laptop.
 
 ### **Step 2 — Purchase & Download stAI**
-Visit our online shop: **(https://tomsk.tv/wp/product/stai/)**  
-After your payment, download the **stAI VM image** (a large ZIP file).  
+Visit **[our online shop](https://tomsk.tv/wp/product/stai)** 
+to buy. After your payment, download the **stAI VM image** (a large ZIP file).  
 Unzip it into any folder you prefer — for example (C:/vm)
 
 ### **Step 3 — Launch the stAI VM**
@@ -154,7 +154,7 @@ Select the vmx file from the unzipped stAI folder (e.g., `C:/vm/stAI`)
 Press **Power on this virtual machine**
 
 The VM will boot, and you’ll immediately see your full development environment — files, tools, VS Code, everything ready to go.
-For more detail please refer: **[Developer guide](https://tomsk.tv/wp/stai)**  
+For more detail please refer **[Developer guide](https://tomsk.tv/wp/stai)**  
 You can start coding right away and have fun building. The Docker containers will be up running, or you can use the Linux script files to start. You now have 2 monorepo: Node JS, and Go monorepo.  
 
 ---
