@@ -44,7 +44,7 @@
 - Reproducible, battle‑tested workflows  
 
 <Callout type="warning">
-  The VM image is ~59GB because it includes a complete AI + full‑stack + DevOps environment.
+  The VM image is ~54GB because it includes a complete AI + full‑stack + DevOps environment.
 </Callout>
 
 <Divider />
