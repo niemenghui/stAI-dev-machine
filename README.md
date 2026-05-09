@@ -61,7 +61,7 @@
 
 - Ubuntu VM running on **VMware**  
 - Version **3.0.3**  
-- VM image file (over 59 GB), can be downloaded
+- VM image file (over 54 GB), can be downloaded
 - Boot → Build → Deploy → Run AI models  
 - Zero setup. Zero dependency hell.
 <Divider />
