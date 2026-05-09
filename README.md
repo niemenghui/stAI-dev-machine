@@ -154,7 +154,7 @@ Select the vmx file from the unzipped stAI folder (e.g., `C:/vm/stAI`)
 Press **Power on this virtual machine**
 
 The VM will boot, and you’ll immediately see your full development environment — files, tools, VS Code, everything ready to go.
-
+For more detail please refer: **[Developer guide](https://tomsk.tv/wp/stai)**  
 You can start coding right away and have fun building. The Docker containers will be up running, or you can use the Linux script files to start. You now have 2 monorepo: Node JS, and Go monorepo.  
 
 ---
