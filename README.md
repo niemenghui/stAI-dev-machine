@@ -14,7 +14,9 @@
 - Pre‑configured environment for AI tools, prototypes, modern workflows, optimal future‑proof and production‑ready.  
 
 <Callout type="tip">
-  Perfect for building AI‑driven applications, RAG systems, and LLM‑powered tools without touching complex setup steps.
+  Perfect for building AI‑driven applications, RAG systems, and LLM‑powered tools without touching complex setup steps. 
+  Furthore, several application sources architectured are included inside this machine. The code is not sample, it is enterprise‑architected. All the code is with tests and runnable with the running databases, including the vector database. 
+Inside this machine, there is also all source code of an AI‑powered medical triage and doctor‑routing application, backed by a single‑agent Plan‑and‑Execute system with multi‑step reasoning, RAG medical retrieval, Reflexion‑based self‑correction, and tool‑calling for doctor search and ranking: the NoQ Clinic app. All included inside — a live machine that you can use immediately for your AI driven application development: production‑ready and cloud‑ready.
 </Callout>
 
 <Divider />
